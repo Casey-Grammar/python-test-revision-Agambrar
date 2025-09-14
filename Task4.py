@@ -5,14 +5,8 @@
 
 def main():
     #Write your code here
-    
-
-
-    # End of your code here
-
-
-
-
-
+    password = input("What is the password Ali? ")
+    if password == 'Open sesame!':
+      print("The cave door opens!") 
 if __name__ == '__main__':
     main()
