@@ -11,7 +11,14 @@
 
 def main():
     #Write your code here
-    
+    studentsNames = input("Students: ")
+    print('Class Roll')
+    namesList = studentsNames.split()
+    capitalisedNames = [name.capitalise() for name in namesList]]
+    capitalisedNames.sort()
+    for name in capitalisedNames:
+              print(name)
+
 
 
     # End of your code here

@@ -5,10 +5,9 @@
 
 def main():
     #Write your code here
-    
-
-
-
+    listofCatNames = input("Cats: ")
+    catsNames = listofCatNames.split()
+    print("You have " + str(len(catsNames)) + "cats.")
     # End of your code here
 
 
